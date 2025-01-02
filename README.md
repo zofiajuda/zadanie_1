@@ -8,12 +8,12 @@ Dodatkowo program zapyta się czy chcemy przesunąć baseline (odpowiedż y - ta
 Ta opcja spowoduje przesunięcie histogramu do poziomu 0, a przesunięcie wypisze w okienku na histogramie.
 Jako argument funckja bierze nazwę pliku z którego ma czytać dane, domyślnie jest to plik wave_0.dat. Makro można uruchomić w następujące sposoby:
 
-'code' root zadanie_1.C -> makro uruchomi się z domyślnym argumentem
+ `root zadanie_1.C` -> makro uruchomi się z domyślnym argumentem
 
-w sesji root'a poprzez '.x zadanie_1.C' -> również uruchomi się z domyślnym argumentem
+w sesji root'a poprzez `.x zadanie_1.C` -> również uruchomi się z domyślnym argumentem
 
 w sesji root poprzez:
 
-'.L WidmoCs.C' => ładowanie makra
+`.L WidmoCs.C` => ładowanie makra
 
-'WidmoCs("nazwa_pliku");' -> ta opcja umożliwa uruchomienie programu z innym argumentem
+`WidmoCs("nazwa_pliku");` -> ta opcja umożliwa uruchomienie programu z innym argumentem
